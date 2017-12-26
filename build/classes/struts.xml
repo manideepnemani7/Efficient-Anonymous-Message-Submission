@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"    
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<package name="default" extends="struts-default" namespace="/">
+<action name="signup" class="com.msg.Signup">
+<result name="success">success.jsp</result>
+</action>
+<action name="apply"  class="com.msg.Apply">
+<result name="success">survey.jsp</result>
+</action>
+<action name="logout"  class="com.msg.Logout">
+<result name="success">home.jsp</result>
+</action>
+<action name="userview"  class="com.msg.UserView">
+<result name="success">userview.jsp</result>
+</action>
+<action name="report" class="com.msg.Report">
+<result name="success">user_login.jsp</result>
+</action>
+<action name="colview" class="com.msg.Cview">
+<result name="success">cview.jsp</result>
+</action>
+<action name="adview" class="com.msg.Aview">
+<result name="success">adview.jsp</result>
+</action>
+<action name="adview1" class="com.msg.Aview1">
+<result name="success">adviewuser.jsp</result>
+</action>
+<action name="profile" class="com.msg.Profile">
+<result name="success">userprofileview.jsp</result>
+</action>
+<action name="send" class="com.msg.Send">
+<result name="success">collector_login.jsp</result>
+</action>
+<action name="user" class="com.msg.User">
+<result name="success">user_login.jsp</result>
+<result name="error">user_error.jsp</result>
+</action>
+<action name="admin1" class="com.msg.Admin1">
+<result name="success">admin_login.jsp</result>
+<result name="error">user_error.jsp</result>
+</action>
+<action name="collector1" class="com.msg.Collector1">
+<result name="success">collector_login.jsp</result>
+<result name="error">user_error.jsp</result>
+</action>
+</package>
+</struts>
+
+
