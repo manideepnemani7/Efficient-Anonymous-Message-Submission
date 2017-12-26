@@ -1,0 +1,89 @@
+@CHARSET "ISO-8859-1";
+#ss
+{
+	float:left;
+	width:16%;
+}
+#ss11
+{float:left;
+	width:25%;
+}
+#ssx{
+	float:left;
+	
+}
+#sss
+{
+	height:35px;
+}
+#ss1
+ { width: 455px; float: right; }
+
+#ssss
+{
+	height:2px;
+}
+#logg
+ { 
+ width: 560px;
+  float: right;
+  
+ 
+  }
+ #logg1
+ { width: 500px; float: right; }
+ 
+ #loggg
+ { 
+ width: 560px;
+ height: 150px;
+  float: right;
+  
+ 
+  }
+ #survey
+ { 
+
+  width: 560px;
+  float: right;
+  
+ 
+  }
+  #view123
+  {
+  float: right;
+  height: 180px;
+  width: 850px;
+  }
+  #collector
+  {
+  float: right;
+ 
+  width: 550px;
+  }
+
+#logogg .block{ position: absolute; top: 0; left: 0; display: block; width: 100%; height: 100%; text-decoration: none; }
+  
+    .button1 {
+   border-top: 0px solid white;
+      border-bottom: 0px solid white;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+   background: white;
+   background: -webkit-gradient(linear, left top, left bottom, from(white), to(white));
+   background: -webkit-linear-gradient(top, white, white);
+   background: -moz-linear-gradient(top, white, white);
+   background: -ms-linear-gradient(top, white, white);
+   background: -o-linear-gradient(top, white, white);
+   padding: 5px 5px;
+   -webkit-border-radius: 1px;
+   -moz-border-radius: 1px;
+   border-radius: 1px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   }
+	
+  
